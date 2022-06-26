@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>PG Portfolio</title>
+    <script>
+        window.onload = () => {
+            console.log("script is running");
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-text">
+            <a href="#intro">Prathamshree Gupta</a>
+        </div>
+        <div class="menu">
+            <div class="menu-item"> <a href="#intro">Home</a> </div>
+            <div class="menu-item"> <a href="#projects">Project</a> </div>
+            <div class="menu-item"> <a href="#skills">Skill</a> </div>
+            <div class="menu-item"> <a href="#interest">Interest</a> </div>
+            <div class="menu-item"> <a href="#education">Education</a> </div>
+            <div class="menu-item"> <a href="#contact">Contact</a> </div>
+            <div class="menu-item"> <a href="PG Resume.pdf" target="_blank">Resume</a> </div>
+        </div>
+    </nav>
+    <section class="intro" id="intro">
+        <div class="pg-hi">
+            <img src="PG.jpg" alt="PG">
+        </div>
+        <div class="intro-content">
+            <p id="hi-text">Hi, I am Prathamshree.</p>
+            <p id="bio-text">I Love to Write Code & Design Things.</p>
+            <p> I am a Student pursuing<br>Bachelor's Degree in Computer Science<br>at Pillai College of Arts, Commerce
+                & Science.<br><br>I live in Karjat-Maharashtra,India.</p>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <center>
+            <h1 class="section-title-item">My Projects</h1>
+            <hr>
+            <div class="project-item">
+                <div class="project-item-title">
+                    Landing Page
+                </div>
+                <div class="project-item-stack">
+                    HTML5 <span class="separator">|</span> CSS3 <span class="separator">|</span> JS
+                </div>
+                <div class="project-item-short">
+                    Crypto is a demo Landing-Page built using HTML, CSS & JS
+                </div>
+                <div class="links">
+                    <div class="github-link">
+                        <a href="https://github.com/pgprtgupta/Landing-Page">Github Source Code Link</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-item-title">
+                    Laundry System
+                </div>
+                <div class="project-item-stack">
+                    HTML5 <span class="separator">|</span> CSS3 <span class="separator">|</span> JS <span
+                        class="separator">|</span> PHP
+                </div>
+                <div class="project-item-short">
+                    Laundry System is built using HTML, CSS, JS & PHP
+                </div>
+                <div class="links">
+                    <div class="github-link">
+                        <a href="#intro">Github Source Code Link</a>
+                    </div>
+
+                </div>
+            </div>
+        </center>
+    </section>
+    <section class="skills" id="skills">
+        <center>
+            <h1 class="section-title-item">Skills</h1>
+            <hr>
+            <div class="skill-section" id="skill-section">
+                <div class="skill-flex">
+                    <div class="skill-personal skill-flex-item">
+                        <h3 class="skill-type">Personal</h3>
+                        <div class="skill-set">
+                            <div class="skill-textholder">
+                                <span class="skill-name">Hindi</span>
+                                <span class="skill-progress">95%</span><br>
+                            </div>
+                            <meter min="0" max="100" value="95" class="skill-meter"></meter>
+                            <div class="skill-textholder">
+                                <span class="skill-name">Marathi</span>
+                                <span class="skill-progress">90%</span><br>
+                            </div>
+                            <meter min="0" max="100" value="90" class="skill-meter"></meter>
+                            <div class="skill-textholder">
+                                <span class="skill-name">English</span>
+                                <span class="skill-progress">85%</span><br>
+                            </div>
+                            <meter min="0" max="100" value="85" class="skill-meter"></meter>
+                        </div>
+                    </div>
+                    <div class="skill-technical skill-flex-item">
+                        <h3 class="skill-type">Technical</h3>
+                        <div class="skill-set">
+                            <div class="skill-textholder">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-progress">95%</span><br>
+                            </div>
+                            <meter min="0" max="100" value="95" class="skill-meter"></meter>
+                            <div class="skill-textholder">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-progress">90%</span><br>
+                            </div>
+                            <meter min="0" max="100" value="90" class="skill-meter"></meter>
+                            <div class="skill-textholder">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-progress">80%</span><br>
+                            </div>
+                            <meter min="0" max="100" value="80" class="skill-meter"></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </section>
+    <section class="interest" id="interest">
+        <center>
+            <h1 class="section-title-item">Interests</h1>
+            <hr>
+            <div class="interest-section" id="interest-section">
+                <div class="interest-body" id="interest-body">
+                    <div class="interest-content">
+                        <q class="interest-quote">Life with no interests and hobbies is just like the food that has no
+                            salt.</q>
+                        <p>We never get drained when we pursue a certain hobby. When we trail our hobbies we discover
+                            many things and also make the most excellent use of time.</p>
+                    </div>
+                    <div class="interest-icon-holder">
+                        <ul class="interest-ul">
+                            <li class="interest-icon"><i class="fas fa-plane-departure"></i></li>
+                            <li class="interest-icon"><i class="fas fa-book-reader"></i></li>
+                            <li class="interest-icon"><i class="fas fa-video"></i></li>
+                            <li class="interest-icon"><i class="fas fa-laptop-code"></i></li>
+                            <li class="interest-icon"><i class="fas fa-music"></i></li>
+                            <li class="interest-icon"><i class="fas fa-gamepad"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </section>
+    <section class="education" id="education">
+        <center>
+            <h1 class="section-title-item">Education</h1>
+            <hr>
+            <div class="education-section" id="education-section">
+                <div class="education-body" id="education-body">
+                    <div class="education-grid">
+                        <div class="education-grid-item-1 education-card">
+                            <span class="education-duration">2020-2023</span>
+                            <span class="education-stream">Bachelor of Science in Computer Science</span>
+                            <span class="education-name">PCACS</span>
+                        </div>
+                        <div class="education-grid-item-2">
+                            <hr class="education-vertical-line">
+                        </div>
+                        <div class="education-grid-item-3 education-card">
+                            <span class="education-duration">2018-2020</span>
+                            <span class="education-stream">Higher Education 12th Computer Science</span>
+                            <span class="education-name">Fergusson College</span>
+                        </div>
+                        <div class="education-grid-item-4">
+                            <hr class="education-vertical-line">
+                        </div>
+                        <div class="education-grid-item-5 education-card">
+                            <span class="education-duration">2005-2018</span>
+                            <span class="education-stream">Primary and Secondary Education</span>
+                            <span class="education-name">K.E.S. English Medium School</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </section>
+    <section class="contact" id="contact">
+        <center>
+            <h1 class="section-title-item">Connect with me</h1>
+            <hr>
+            <div class="logo-menu">
+                <div id="linkedin-logo" class="logo-menu-item">
+                    <a href="https://www.linkedin.com/in/prathamshree-gupta-8a20a123a/" target="_blank">
+                        <i class="fab fa-linkedin fa-6x" style="color:#2867B2"></i>
+                    </a>
+                </div>
+                <div id="github-logo" class="logo-menu-item">
+                    <a href="https://github.com/pgprtgupta" target="_blank">
+                        <i class="fab fa-github-square fa-6x" class="contact-menu-item-image" style="width: 100px;"></i>
+                    </a>
+                </div>
+            </div>
+        </center>
+    </section>
+    <footer>
+        <hr>
+        <h3>
+            Copyright &copy; 2022 Prathamshree Gupta<br />
+            All rights reserved
+        </h3>
+    </footer>
+</body>
+
+</html>
